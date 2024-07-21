@@ -1,0 +1,99 @@
+﻿html {
+    height: 100%;
+    max-width:100%;
+    overflow-x:hidden;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    margin: 0px;
+    padding-top: 60px;
+    background-color: #ccdded;
+    background-size: cover;
+    overflow-x: unset;
+}
+
+h1, h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: #144878;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #144878;
+}
+
+.text1 {
+    text-align: left;
+}
+
+.text2 {
+    text-align: right;
+}
+
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: #144878;
+}
+
+div {
+    height: 100%;
+    width: 100% auto;
+    margin: 0px;
+    padding: 10px;
+}
+
+    div.div1 {
+        background-color: white;
+    }
+
+.imageall{
+    border-radius:50%;
+}
+td {
+    padding: 20px 20px 20px 20px;
+}
+
+.buttonzoom {
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+
+    .buttonzoom:hover {
+        transform: scale(1.1);
+    }
+
+.navzoom {
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+    .navzoom:hover {
+        transform: scale(1.2);
+    }
+
+input, textarea.textbox {
+    border-radius: 12px;
+    width: 200px;
+    height: 50px;
+}
+
+.border_header {
+    font-family: Arial;
+    height: auto;
+    width: 1000px;
+    border-style: none;
+    border-radius: 12px;
+    background-color: #144878;
+    color: white;
+    text-align: center;
+}

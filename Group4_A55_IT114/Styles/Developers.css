@@ -1,0 +1,7 @@
+﻿body {
+}
+.developerimage {
+    height: 367px;
+    background-image: url('../Images/Developers_Image/DevPic.png');
+    background-repeat: no-repeat;
+}

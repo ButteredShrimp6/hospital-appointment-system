@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="DoctorAdminMaster.Master.cs" Inherits="Group4_A55_IT114.DoctorAdminMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title> Group 4 Machine Problem </title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style19 {
+            text-align: right;
+            width: 493px;
+        }
+        .auto-style20 {
+            width: 100%;
+            height: 95px;
+        }
+        .auto-style38 {
+            background-color: white;
+            width: 100%;
+            height: 20px;
+            padding: 10px;
+            text-align: center;
+        }
+        </style>
+
+    <!--StyleSheets-->
+    <link href="Styles/StyleSheet.css" rel="stylesheet" />
+    <!--MasterPage-->
+    <link href="Styles/MasterPage.css" rel="stylesheet" />
+    <!--HomePage for Doctor/Admin-->
+    <link href="Styles/DoctorAdmin.css" rel="stylesheet" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <!--Header_Master-->
+        <div class = "header">
+            <table class="auto-style20">
+                <tr>
+                    <td>
+                        
+                        <asp:Image ID="imgHomeHeader" runat="server" Height="60px" ImageUrl="~/Images/Logo/mmc_icon.png" Width="60px"/>
+                        
+                    </td>
+                    <td class="auto-style19">
+                        <asp:Button ID="Log_Out" runat="server" BorderStyle="None" Text="Log Out" Width="90px" CssClass="buttonzoom" OnClick="Log_Out_Click" CausesValidation="False"/>
+                    </td>
+                </tr>
+            </table>
+
+         </div>
+ 
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+        </asp:ContentPlaceHolder>
+
+    <br />
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,5 @@
+﻿<asp:Button runat="server" ForeColor="White" BackColor="#144878" Font-Names="Arial" Font-Size="15px" Font-Bold="true"/>
+<asp:HyperLink runat="server" ForeColor="White" Font-Names="Arial" Font-Size="15px"/>
+<asp:Label runat="server" Font-Names="Arial" Font-Size="20px"/>
+<asp:TextBox runat="server" ForeColor="#144878" BackColor="White" Font-Names="Arial" BorderWidth="2px" BorderColor="#144878" BorderStyle="Solid"/>
+<asp:SiteMapPath runat="server" Font-Names="Arial" Font-Size="15px"/>

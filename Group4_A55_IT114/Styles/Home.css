@@ -1,0 +1,7 @@
+﻿body {
+}
+.homepageimage {
+    background-image: url('../Images/Images for HomePage/HomePagePic.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

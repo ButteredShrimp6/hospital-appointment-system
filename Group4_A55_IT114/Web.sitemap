@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="HomePage.aspx" title="Home"  description="Home Page">
+		<siteMapNode url="FindDoctorPage.aspx" title="Find Doctor"  description="Find Doctor" />
+		<siteMapNode url="AppointmentPage.aspx" title="Appointment" description="Appointment Page"/>
+		<siteMapNode url="About_Us.aspx" title="About Us"  description="About Malayan Medical Center">
+			<siteMapNode url="Developers.aspx" title="About Developers" description="About the Developers"/>
+		</siteMapNode>
+		<siteMapNode url="DoctorAdminSelect.aspx" title ="Log-in" description="Select Doctor or Admin">
+			<siteMapNode url="Doctor_Login.aspx" title="Doctor Log-in" description="Log-in for Doctor"/>
+			<siteMapNode url="Admin_Login.aspx" title="Admin Log-in" description="Log-in for Admin"/>
+		</siteMapNode>
+	</siteMapNode>
+</siteMap>

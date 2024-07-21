@@ -1,0 +1,8 @@
+﻿body {
+}
+
+.aboutusimage {
+    height: 367px;
+    background-image: url('../Images/Images for AboutUs/AboutUs.png');
+    background-repeat: no-repeat;
+}
